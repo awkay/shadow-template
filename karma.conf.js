@@ -1,6 +1,6 @@
 module.exports = function (config) {
     config.set({
-        browsers: ['Chrome'],
+        browsers: ['ChromeHeadless'],
         basePath: 'target',
         files: ['ci.js'],
         frameworks: ['cljs-test'],
@@ -10,8 +10,7 @@ module.exports = function (config) {
         // FIXME: do we need this?
         client: {
             args: ["shadow.test.karma.init"],
-            singleRun: true,
-            autoWatch: false
+            singleRun: true
         }
     })
 };

@@ -19,3 +19,6 @@ i18n/i18n.js
 i18n/tmp
 i18n/*.mo
 i18n/*~
+i18n/cljs-runtime
+i18n/manifest.edn
+i18n/main.js

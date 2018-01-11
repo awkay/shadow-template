@@ -8,10 +8,9 @@
   "dependencies": {},
   "devDependencies": {
     "intl-messageformat": "^2.2.0",
-    "karma": "^0.13.19",
-    "karma-chrome-launcher": "^0.2.2",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
     "karma-cljs-test": "^0.1.0",
-    "karma-firefox-launcher": "^0.1.7",
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
     "shadow-cljs": "^2.0.129",
